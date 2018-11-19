@@ -17,4 +17,18 @@ $distance_work = 2.5;
 
 var_dump($distance_home + $distance_work);
 
+$a = 5;
+$b = 10;
+
+var_dump($a * $b);
+var_dump($a / $b);
+
+$a = $a + 1;
+$a++; 
+var_dump($a);
+$a--;
+var_dump($a);
+echo "\n";
+
+var_dump(--$b)
 ?>
